@@ -25,7 +25,7 @@ expressOasGenerator.init(
   SPEC_OUTPUT_FILE_BEHAVIOR.RECREATE
 );
 
-expressOasGenerator.handleResponses(app, {});
+//expressOasGenerator.handleResponses(app, {});
 
 // Tell Express to use its JSON parser with a file limiit of 10MB
 app.use(express.json({ limit: "10mb" }));
@@ -96,6 +96,6 @@ app.use("/api/", apiRoute);
   }
 })();
 
-expressOasGenerator.handleRequests();
+//expressOasGenerator.handleRequests();
 
 export default app;
