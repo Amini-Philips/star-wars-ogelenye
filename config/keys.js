@@ -7,7 +7,7 @@
 const keys = {
   mongoDbURI: process.env.STAR_WARS_MOVIE_DB,
   sqlDbURI: process.env.STAR_WARS_FANS_DB,
-  serverPort: process.env.APP_SERVER_PORT,
+  serverPort: 5000 || process.env.APP_SERVER_PORT,
   dataSource: {
     films: process.env.FILM_DS,
     people: process.env.PEOPLE_DS,
