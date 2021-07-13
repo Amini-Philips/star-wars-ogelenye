@@ -17,16 +17,7 @@ const __dirname = dirname(__filename);
 // Initialize the Node.js Express Framework
 const app = express();
 
-expressOasGenerator.init(
-  app,
-  function (spec) {
-    return spec;
-  },
-  __dirname + "/api-spec.json",
-  60 * 1000,
-  "api-docs",
-  true
-);
+expressOasGenerator.init(app, {});
 
 //expressOasGenerator.handleResponses(app, {});
 
@@ -39,7 +30,6 @@ app.use("/api/", apiRoute);
 // Connect to MongoDB Database - Star Wars
 (async () => {
   try {
-    console.log(`Connecting to Movies Database at ${keys.mongoDbURI}`);
     await mongoose.connect(keys.mongoDbURI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
