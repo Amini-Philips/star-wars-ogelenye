@@ -2,4 +2,4 @@
 A Senior Backend Engineer Assessment Solution for Max.ng
 
 ## Website
-Please visit https://star-wars-ogelenye.herokuapp.com/
+Please visit https://star-wars-ogelenye.herokuapp.com/api/
