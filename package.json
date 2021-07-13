@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "A task for Max.ng Senior Backend Engineer role",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "start": "node server.js"
