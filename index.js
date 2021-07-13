@@ -8,6 +8,11 @@ import CharacterPromise from "./models/Character.js";
 import apiRoute from "./routes/api.js";
 import logger from "./winston.js";
 import expressOasGenerator from "express-oas-generator";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Initialize the Node.js Express Framework
 const app = express();
