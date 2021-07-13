@@ -6,7 +6,7 @@ Please visit https://star-wars-ogelenye.herokuapp.com
 
 ## API Endpoints
 Movies: https://star-wars-ogelenye.herokuapp.com/api/movies/ <br>
-Characters: https://star-wars-ogelenye.herokuapp.com/api/characters/ <br>
+Characters: https://star-wars-ogelenye.herokuapp.com/api/characters/<pagenumber> <br>
 Comments: https://star-wars-ogelenye.herokuapp.com/api/comments/ <br>
 
 ## API Documentation - Swagger UI
