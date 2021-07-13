@@ -14,13 +14,7 @@ const app = express();
 
 expressOasGenerator.init(
   app,
-  function (spec) {
-    return spec;
-  },
   "api-spec.json",
-  60 * 1000,
-  "api-docs",
-  ["production"],
   true,
   SPEC_OUTPUT_FILE_BEHAVIOR.RECREATE
 );
