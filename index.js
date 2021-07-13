@@ -23,6 +23,7 @@ app.use("/api/", apiRoute);
 // Connect to MongoDB Database - Star Wars
 (async () => {
   try {
+    console.log(`Connecting to Movies Database at ${keys.mongoDbURI}`);
     await mongoose.connect(keys.mongoDbURI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
