@@ -20,7 +20,6 @@ expressOasGenerator.init(
   "api-spec.json",
   60 * 1000,
   "api-docs",
-  ["production"],
   true
 );
 
