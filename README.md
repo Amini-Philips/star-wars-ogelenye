@@ -5,9 +5,9 @@ A Senior Backend Engineer Assessment Solution for Max.ng
 Please visit https://star-wars-ogelenye.herokuapp.com
 
 ## API Endpoints
-Movies: https://star-wars-ogelenye.herokuapp.com/api/movies/ <br>
-Characters: https://star-wars-ogelenye.herokuapp.com/api/characters/ <br>
-Comments: https://star-wars-ogelenye.herokuapp.com/api/comments/0 <br>
+Movies: /api/movies/ <br>
+Characters: /api/characters/ <br>
+Comments: /api/comments/ <br>
 
 ## API Documentation - Swagger UI
 Link - https://star-wars-ogelenye.herokuapp.com/api-docs
