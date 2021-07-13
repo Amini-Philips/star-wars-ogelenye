@@ -17,7 +17,7 @@ expressOasGenerator.init(
   function (spec) {
     return spec;
   },
-  "./api-spec.json",
+  __dirname + "/api-spec.json",
   60 * 1000,
   "api-docs",
   true
