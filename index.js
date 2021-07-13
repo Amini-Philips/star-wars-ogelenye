@@ -17,7 +17,16 @@ const __dirname = dirname(__filename);
 // Initialize the Node.js Express Framework
 const app = express();
 
-expressOasGenerator.init(app, {});
+expressOasGenerator.init(
+  app,
+  function (spec) {
+    return spec;
+  },
+  __dirname + "/swagger.json",
+  60 * 1000,
+  "api-docs",
+  true
+);
 
 //expressOasGenerator.handleResponses(app, {});
 
