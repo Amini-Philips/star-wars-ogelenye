@@ -12,7 +12,7 @@ import expressOasGenerator from "express-oas-generator";
 // Initialize the Node.js Express Framework
 const app = express();
 
-expressOasGenerator.init(
+/*expressOasGenerator.init(
   app,
   function (spec) {
     return spec;
@@ -21,7 +21,7 @@ expressOasGenerator.init(
   60 * 1000,
   "api-docs",
   true
-);
+);*/
 
 //expressOasGenerator.handleResponses(app, {});
 
