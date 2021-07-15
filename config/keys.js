@@ -1,9 +1,5 @@
 // This file contains all configuration settings
 
-//import dotenv from "dotenv";
-
-//dotenv.config();
-
 const keys = {
   mongoDbURI: process.env.STAR_WARS_MOVIE_DB,
   sqlDbURI: process.env.STAR_WARS_FANS_DB,
