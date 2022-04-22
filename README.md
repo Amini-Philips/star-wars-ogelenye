@@ -1,5 +1,5 @@
 # star-wars-ogelenye
-A Senior Backend Engineer Assessment Solution for Max.ng
+Removed project description
 
 ## Web API
 Please visit https://star-wars-ogelenye.herokuapp.com
